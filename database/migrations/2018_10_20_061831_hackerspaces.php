@@ -13,7 +13,14 @@ class Hackerspaces extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('hackers', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('hacker_name');
+            $table->string('alias_name');
+            $table->integer('marks1');
+            $table->integer('marks2');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +30,6 @@ class Hackerspaces extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('hackers');
     }
 }

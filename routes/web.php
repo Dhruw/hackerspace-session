@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+    // return "Hello Hackerspace";
+    // return view('welcome');
+// return("HackerSpaceController@home")
+// });
+
+
+Route::get('/', [ 'uses' => 'HackerSpaceController@home', 'as' => 'admin.index']);
