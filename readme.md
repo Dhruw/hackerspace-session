@@ -1,5 +1,8 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
+<p>
+YouTube link of the Session: <a href="https://www.youtube.com/watch?v=ESGJo20fEKI" target="_blank">https://www.youtube.com/watch?v=ESGJo20fEKI</a>
+ </p>
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
